@@ -1,0 +1,12 @@
+{
+  "name": "freeflow-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",                 // this is the variable you use in code
+      "database_name": "my-database",  // your D1 database name
+      "database_id": "df177a4b-7088-4d36-9fd5-6816cdd6cfef" // actual ID
+    }
+  ]
+}
